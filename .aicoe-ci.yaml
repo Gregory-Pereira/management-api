@@ -14,3 +14,9 @@ deploy:
     project-name: "thoth-application"
     image-name: "management-api"
     overlay-contextpath: "management-api/overlays/test/imagestreamtag.yaml"
+  prod:
+    default-action: "commit"
+    project-org: "gregory-pereira"
+    project-name: "thoth-application"
+    image-name: "management-api"
+    overlay-contextpath: "management-api/overlays/moc-prod/imagestreamtag.yaml"
